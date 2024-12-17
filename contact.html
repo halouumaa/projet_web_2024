@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="../js/contact.js" ></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Ahlem<span> DABBOUS</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../Home.html" >Home</a></li>
+                <li><a href="about_me.html">About Me</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="proj_exp.html">Proj_exp</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="iit-testimonials.html">Testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="contact-intro">
+                <h1>Contact Us</h1>
+                <h2>Send Us A Message</h2>
+            </div>
+
+            <div class="contact-container">
+                <h2 class="form-title">Get In Touch</h2>
+                <div class="louma">
+                    <img src="../images/louma.jpg" alt="Your Image Description">
+                </div>
+                <form id="contactForm" action="mailto:youremail@example.com" method="post" enctype="text/plain" onsubmit="showConfirmation(event)">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+               
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ahlem DABBOUS. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
